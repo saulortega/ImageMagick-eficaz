@@ -9,3 +9,7 @@ En mi viejo computador, convert tardaba una hora en procesar 30 imágenes. Con e
 Este script ejecuta convert con las opciones -morph y -normalize, pudiendo elegirse la cantidad de imágenes a crear en la secuencia intermedia de morph y las imágenes origen a procesar. Debe ejecutarse en el mismo directorio donde se encuentran las imágenes a convertir.
 
 Convert se ejecutará con estas opciones: convert *.JPG -morph 2 -monitor -normalize. (La expresión *.JPG y el número 2 de morph son elegidas por el usuario.)
+
+
+Funciona con Python 3.4 en Windows.
+No funciona con Python 2.7 en Linux.
